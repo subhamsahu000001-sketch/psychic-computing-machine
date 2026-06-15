@@ -62,6 +62,7 @@ Run the script:
 bash
 
 python Simple_Password_Generator.py
+
 4️⃣ Voice Assistant (Jarvis)
 An intelligent voice assistant named "Jarvis" that interacts with the user via speech recognition and text-to-speech. It can perform web searches, open applications, tell the time, and manage system tasks.
 
@@ -109,5 +110,18 @@ bash
 pip install requests pyperclip pyttsx3 speech_recognition pyautogui wikipedia
 
 
-📝 Notes
-Python Version: These projects were written for Python 3.x.
+Python Socket Chat Application
+A real-time, multi-user chat application built with Python socket programming and threading. It features a modern, responsive GUI built with tkinter and ttkthemes, allowing multiple clients to connect to a central server and exchange messages instantly.
+
+🌟 Features
+Real-time Messaging: Instant text communication between multiple clients.
+Multi-User Support: The server handles multiple concurrent connections using threading.
+Modern GUI: A polished, theme-based user interface (inspired by Discord dark mode).
+Emoji Support: Clients can send emojis that are rendered in the chat.
+User Management: Users can set a custom username upon joining, and the server announces their arrival.
+File Upload UI: Includes a file selection interface (simulated notification).
+📂 Project Structure
+The project consists of two main scripts:
+
+server.py: The backend server that listens for connections and broadcasts messages to all connected clients.
+client.py: The frontend GUI application that users interact with to send and receive messages.
